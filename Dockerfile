@@ -1,8 +1,8 @@
 FROM ruby:2.5.0
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
-  && apt-get install -y nodejs
-RUN apt-get update -qq && apt-get install -y \
+  && apt-get install -y nodejs 
+RUN apt-get update -qq && apt-get install -y imagemagick libmagick++-dev \
   build-essential \
   && rm -rf /var/lib/apt/lists/*
 
