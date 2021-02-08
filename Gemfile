@@ -33,7 +33,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 
 #画像アップロード
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'mini_magick'
 
 gem 'bootstrap', '~> 4.1.3'
